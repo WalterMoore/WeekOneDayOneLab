@@ -1,7 +1,9 @@
 div{
 	border: 1px solid black;
 }
-
+.header{
+	background-color:teal;
+}
 h1{
 	font-family: "",serif;
 	font-size: px;
