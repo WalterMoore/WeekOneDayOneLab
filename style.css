@@ -3,7 +3,42 @@ div{
 }
 .header{
 	background-color:teal;
+	height: 40px;
 }
+.aboutLink{
+	height:40px;
+	width:20%;
+}
+
+.skillsLink{
+	height:40px;
+	width:20%;
+	margin: -40px 0px 0px 20%;
+}
+
+.resumeLink{
+	height:40px;
+	width:20%;
+	margin: -40px 0px 0px 40%
+}
+
+.projectsLink{
+	height:40px;
+	width:20%;
+}
+
+.contactLink{
+	height:40px;
+	width:20%;
+}
+
+p{ 
+	font-family: "", serif;
+	color: white;
+	font-size:14px;
+	text-align:center;
+}
+
 h1{
 	font-family: "",serif;
 	font-size: px;
