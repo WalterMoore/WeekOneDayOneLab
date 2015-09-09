@@ -6,19 +6,19 @@
 	<body>
 		<div class ="header">
 			<div class ="aboutLink">
-				<p>About</p>
+				<p><a href="#about">About</a></p>
 			</div>
 			<div class="skillsLink">
-				<p>Skills</p>
+				<p><a href="#skills">Skills</a></p>
 			</div>
 			<div class="resumeLink">
-				<p>Resume</p>
+				<p><a href="#resume">Resume</a></p>
 			</div>
 			<div class="projectsLink">
-				<p>Projects</p>
+				<p><a href="#projects">Projects</a></p>
 			</div>
 			<div class="contactLink">
-				<p>Contact</p>
+				<p><a href="#contact">Contact</a></p>
 			</div>
 		</div>
 		
@@ -30,7 +30,7 @@
 				<h3>Front End Engineer</h3>
 			</div>
 			
-			<div about>
+			<div id="about">
 				<h2>About Me</h2>
 				<div class="aboutPar1">
 					<h5>Yo soy hombre sincero de donde crece la palma.
@@ -38,17 +38,17 @@
 						 Oh, oh Guantanamera, Guajira Guantanamera.</h5>
 				</div>
 				<div class ="aboutPar2">
-					<h5>Yo se bien que estoy afuera, pero el dia an que yo muera, 
+					<h5>Yo se bien que estoy afuera, pero el dia en que yo muera, 
 						se que tendras que llorar. (Llorar y llorar). 
 						Diras que no me quisiste, pero vas a estar muy triste, 
-						y asi tem me vas a quedar.
+						y asi te me vas a quedar.
 						Con dinero o sin dinero, hago siempre lo que quiero,
 						y mi palabra es la ley. No tengo trono ni reina,
 						ni nadie que me comprenda, pero sigo siendo el rey.</h5>
 				</div>
 			</div>
 			
-			<div skills>
+			<div id="skills">
 				<h2>Technical Skills</h2>
 				<div class="skillsPar1">
 					<h5>HTML, CSS, Javascript.</h5>
@@ -58,7 +58,7 @@
 				</div>
 			</div>
 			
-			<div projects>
+			<div id="projects">
 				<div>
 					<h2>Projects</h2>
 				</div>
@@ -72,31 +72,31 @@
 				</div>
 			</div>
 			
-			<div resume>
+			<div id="resume">
 				
 				<div experience>
 					<div>
 						<h2>Experience</h2>	
 					</div>
 					<div>
-						<p positiontitle></p>
-						<li date></li>
-						<li></li>
+						<p class="positiontitle">Ape in Zoo</p>
+						<li class="date">2011-Present</li>
+						<li>Flung self-created objects of art.</li>
 					</div>
 					<div>
-						<p positiontitle></p>
-						<li date></li>
-						<li></li>
+						<p class="positiontitle">Land Mine Tester</p>
+						<li class="date">2011 (fired)</li>
+						<li>Started off on the wrong foot. My fault it didn't work out.</li>
 					</div>
 					<div>
-						<p positiontitle></p>
-						<li date></li>
-						<li></li>
+						<p class="positiontitle">Panhandler-Drifter</p>
+						<li class="date">1843-2011</li>
+						<li>Good honest work.</li>
 					</div>
 					<div>
-						<p positiontitle></p>
-						<li date></li>
-						<li></li>
+						<p class="positiontitle">United States Senator</p>
+						<li class="date">1790-1843</li>
+						<li>Started 4 wars and 12 international incidents.</li>
 					</div>
 				</div>
 				
@@ -105,22 +105,26 @@
 						<h2>Education</h2>
 					</div>
 					<div>
-						<p>School 1</p>
+						<h5>DepotU</h5>
 				</div>
 			</div>
 			
-			<div contact>
-				<h2>Contact Me</h2>
-				<div userName></div>
-				<div userMail></div>
-				<div userMessage></div>
-				<div userSend></div>
+			<div id="contact"><!--copied following block from solution-->
+  		    <form>
+			  <label for="name">Name</label>
+			  <input type="text" id="name" placeholder="Smith" required>
+			  <label for="email">Email</label>
+			  <input type="email" id="email" placeholder="smith@example.com" required>
+			  <label for="message">Message</label>				
+			  <input type="text" id="message" required>
+			  <input type="submit" id="submit" value="Send">
+		    </form>
 			</div>
 			
 		</div>
 		<div footer>
-			<div gitHub></div>
-			<div linkedIn></div>
+			<div gitHub><a href="https://github.com/">Github</a></div>
+			<div linkedIn><a href="https://www.linkedin.com/">LinkedIn</a></div>
 		</div>
 			
 	</body>
